@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Law Office of Ross D. Gardner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+
 </head>
+
 <body>
-    <h1>INTRODUCTION TO GIT</h1>
-    <h2>SOMETHING</h2>
-    <h1>commitiing</h1>
-    <p>git starter pack</p>
+    <!-- top bar -->
+    <header class="bg-white w-full shadow-md relative">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <!-- Mobile Hamburger Menu (top-left) -->
+            <details class="md:hidden absolute top-4 left-4 z-20">
+                <summary class="cursor-pointer p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </summary>
+                <ul class="bg-white rounded-md shadow-md mt-2 py-4 px-6 space-y-4 text-base font-medium text-slate-600">
+                    <li><a href="#" class="block hover:text-gray-900 transition">Home</a></li>
+                    <li><a href="#" class="block hover:text-gray-900 transition">Practice Areas</a></li>
+                    <li><a href="#" class="block hover:text-gray-900 transition">About Ross</a></li>
+                    <li><a href="#" class="block hover:text-gray-900 transition">Contact</a></li>
+                    <li>
+                        <a href="#" class="block hover:text-gray-900 transition">
+                            <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </details>
+
+            <!-- Logo and Title (Centered) -->
+            <div class="flex flex-col items-center space-y-3">
+                <img src="images/Logo.webp" alt="Logo" class="w-[720px] h-[100px] object-contain" />
+                <div class="text-center">
+                    <p class="text-sm uppercase tracking-wide text-gray-600">The Law Office Of</p>
+                    <h1 class="text-2xl md:text-3xl font-bold text-gray-900">ROSS D. GARDNER</h1>
+                </div>
+            </div>
+
+            <!-- Desktop Nav -->
+            <ul class="hidden md:flex justify-center items-center mt-6 space-x-6 text-base font-medium text-slate-600">
+                <li><a href="#" class="hover:text-gray-900 transition">Home</a></li>
+                <li><a href="#" class="hover:text-gray-900 transition">Practice Areas</a></li>
+                <li><a href="#" class="hover:text-gray-900 transition">About Ross</a></li>
+                <li><a href="#" class="hover:text-gray-900 transition">Contact</a></li>
+                <li>
+                    <a href="#" class="hover:text-gray-900 transition">
+                        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- HERO  -->
+    <section class="relative w-full h-[60vh] md:h-[80vh] overflow-hidden z-0">
+  <!-- Full-cover YouTube Video -->
+  <div class="absolute top-0 left-0 w-full h-full z-0">
+    <div class="absolute top-1/2 left-1/2 w-[180%] h-[180%] transform -translate-x-1/2 -translate-y-1/2">
+      <iframe
+        class="w-full h-full pointer-events-none"
+        src="https://www.youtube.com/embed/gwz6slOU3II?autoplay=1&mute=1&loop=1&playlist=gwz6slOU3II&controls=0&showinfo=0&rel=0&modestbranding=1&enablejsapi=1&playsinline=1"
+        title="Client-Centric Legal Video"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+
+  <!-- Content -->
+  <div class="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4">
+    <h1 class="text-3xl md:text-5xl font-bold mb-4">Client‑Centric Legal Representation</h1>
+    <p class="text-lg md:text-xl mb-6">Dedicated to protecting your rights and interests.</p>
+    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded text-base font-medium">
+      Schedule a Consultation
+    </a>
+  </div>
+</section>
+
+
+
+<section class="bg-white py-16 px-4">
+  <div class="max-w-7xl mx-auto text-center">
+    <!-- Section Heading -->
+    <h2 class="text-3xl font-semibold text-gray-800 mb-2 relative inline-block">
+      <span class="block w-12 h-1 bg-gray-400 mx-auto mb-2"></span>
+      Practice Areas
+      <span class="block w-12 h-1 bg-gray-400 mx-auto mt-2"></span>
+    </h2>
+    <a href="#" class="text-blue-600 hover:underline text-sm mb-10 inline-block">Click here to learn more</a>
+
+    <!-- Grid -->
+    <div class="mx-60 mt-12 grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <!-- Business -->
+      <div class="flex flex-col items-center">
+        <img src="images/business icon.png" alt="Business Icon" class="w-60 h-60 mb-4" />
+        <h3 class="text-blue-600 font-semibold text-lg mb-2">Business</h3>
+        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
+          We work with businesses and business owners in every stage of the cycle, from formation,
+          to ongoing operation and growth of the company, preparation of contracts,
+          protection of intellectual property, and the sale or closing of a business.
+        </p>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="flex flex-col items-center">
+        <img src="images/real estate icon.png" alt="Real Estate Icon" class="w-60 h-60 mb-4" />
+        <h3 class="text-blue-600 font-semibold text-lg mb-2">Real Estate</h3>
+        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
+          We work with businesses and individuals on a wide variety of real estate matters, including lease review and negotiation,
+          preparation of deeds and purchase and sale agreements, and boundary line and easement issues.
+        </p>
+      </div>
+
+      <!-- Estates -->
+      <div class="flex flex-col items-center">
+        <img src="images/estates icon.png" alt="Estates Icon" class="w-60 h-60 mb-4" />
+        <h3 class="text-blue-600 font-semibold text-lg mb-2">Estates</h3>
+        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
+          We help people to protect their assets and their families through comprehensive estate planning services,
+          including the preparation of Wills, Trusts, Power of Attorney, and Healthcare Directives.
+          We also help with the administration of estates through Probate.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 </body>
+
 </html>

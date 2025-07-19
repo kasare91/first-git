@@ -2,153 +2,324 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Law Office of Ross D. Gardner</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Law Office of Ross D. Gardner | Business, Real Estate & Estate Planning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
-<body>
-    <!-- top bar -->
-    <header class="bg-white w-full shadow-md relative">
-        <div class="max-w-7xl mx-auto px-4 py-6">
-            <!-- Mobile Hamburger Menu (top-left) -->
-            <details class="md:hidden absolute top-4 left-4 z-20">
-                <summary class="cursor-pointer p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                </summary>
-                <ul class="bg-white rounded-md shadow-md mt-2 py-4 px-6 space-y-4 text-base font-medium text-slate-600">
-                    <li><a href="#" class="block hover:text-gray-900 transition">Home</a></li>
-                    <li><a href="#" class="block hover:text-gray-900 transition">Practice Areas</a></li>
-                    <li><a href="#" class="block hover:text-gray-900 transition">About Ross</a></li>
-                    <li><a href="#" class="block hover:text-gray-900 transition">Contact</a></li>
-                    <li>
-                        <a href="#" class="block hover:text-gray-900 transition">
-                            <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" stroke-width="2"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </details>
+<body class="font-sans bg-white">
 
-            <!-- Logo and Title (Centered) -->
-            <div class="flex flex-col items-center space-y-3">
-                <img src="images/Logo.webp" alt="Logo" class="w-[720px] h-[100px] object-contain" />
-                <div class="text-center">
-                    <p class="text-sm uppercase tracking-wide text-gray-600">The Law Office Of</p>
-                    <h1 class="text-2xl md:text-3xl font-bold text-gray-900">ROSS D. GARDNER</h1>
-                </div>
-            </div>
-
-            <!-- Desktop Nav -->
-            <ul class="hidden md:flex justify-center items-center mt-6 space-x-6 text-base font-medium text-slate-600">
-                <li><a href="#" class="hover:text-gray-900 transition">Home</a></li>
-                <li><a href="#" class="hover:text-gray-900 transition">Practice Areas</a></li>
-                <li><a href="#" class="hover:text-gray-900 transition">About Ross</a></li>
-                <li><a href="#" class="hover:text-gray-900 transition">Contact</a></li>
-                <li>
-                    <a href="#" class="hover:text-gray-900 transition">
-                        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/95 shadow-md transition">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col items-center py-4 relative">
+        <!-- Main Logo -->
+        <div class="mb-4">
+          <img
+            src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/245608/The_Law_Office_of_Ross_D._Gardner_Logo_v3_CMYK_ekeydu.jpg"
+            alt="The Law Office of Ross D. Gardner" class="h-20 md:h-24 w-auto" loading="lazy">
         </div>
-    </header>
-
-
-    <!-- HERO  -->
-    <section class="relative w-full h-[60vh] md:h-[80vh] overflow-hidden z-0">
-  <!-- Full-cover YouTube Video -->
-  <div class="absolute top-0 left-0 w-full h-full z-0">
-    <div class="absolute top-1/2 left-1/2 w-[180%] h-[180%] transform -translate-x-1/2 -translate-y-1/2">
-      <iframe
-        class="w-full h-full pointer-events-none"
-        src="https://www.youtube.com/embed/gwz6slOU3II?autoplay=1&mute=1&loop=1&playlist=gwz6slOU3II&controls=0&showinfo=0&rel=0&modestbranding=1&enablejsapi=1&playsinline=1"
-        title="Client-Centric Legal Video"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-      ></iframe>
-    </div>
-  </div>
-
-  <!-- Overlay -->
-  <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
-
-  <!-- Content -->
-  <div class="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4">
-    <h1 class="text-3xl md:text-5xl font-bold mb-4">Client‑Centric Legal Representation</h1>
-    <p class="text-lg md:text-xl mb-6">Dedicated to protecting your rights and interests.</p>
-    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded text-base font-medium">
-      Schedule a Consultation
-    </a>
-  </div>
-</section>
-
-
-
-<section class="bg-white py-16 px-4">
-  <div class="max-w-7xl mx-auto text-center">
-    <!-- Section Heading -->
-    <h2 class="text-3xl font-semibold text-gray-800 mb-2 relative inline-block">
-      <span class="block w-12 h-1 bg-gray-400 mx-auto mb-2"></span>
-      Practice Areas
-      <span class="block w-12 h-1 bg-gray-400 mx-auto mt-2"></span>
-    </h2>
-    <a href="#" class="text-blue-600 hover:underline text-sm mb-10 inline-block">Click here to learn more</a>
-
-    <!-- Grid -->
-    <div class="mx-60 mt-12 grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-      <!-- Business -->
-      <div class="flex flex-col items-center">
-        <img src="images/business icon.png" alt="Business Icon" class="w-60 h-60 mb-4" />
-        <h3 class="text-blue-600 font-semibold text-lg mb-2">Business</h3>
-        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
-          We work with businesses and business owners in every stage of the cycle, from formation,
-          to ongoing operation and growth of the company, preparation of contracts,
-          protection of intellectual property, and the sale or closing of a business.
-        </p>
-      </div>
-
-      <!-- Real Estate -->
-      <div class="flex flex-col items-center">
-        <img src="images/real estate icon.png" alt="Real Estate Icon" class="w-60 h-60 mb-4" />
-        <h3 class="text-blue-600 font-semibold text-lg mb-2">Real Estate</h3>
-        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
-          We work with businesses and individuals on a wide variety of real estate matters, including lease review and negotiation,
-          preparation of deeds and purchase and sale agreements, and boundary line and easement issues.
-        </p>
-      </div>
-
-      <!-- Estates -->
-      <div class="flex flex-col items-center">
-        <img src="images/estates icon.png" alt="Estates Icon" class="w-60 h-60 mb-4" />
-        <h3 class="text-blue-600 font-semibold text-lg mb-2">Estates</h3>
-        <p class="text-gray-700 text-sm leading-relaxed max-w-xs">
-          We help people to protect their assets and their families through comprehensive estate planning services,
-          including the preparation of Wills, Trusts, Power of Attorney, and Healthcare Directives.
-          We also help with the administration of estates through Probate.
-        </p>
+        <!-- Hamburger for Mobile -->
+        <button id="nav-toggle" class="absolute left-4 top-4 md:hidden bg-black p-2 rounded"
+          aria-label="Open navigation">
+          <i class="fas fa-bars text-white text-xl"></i>
+        </button>
+        <!-- Nav Links -->
+        <nav id="nav-links"
+          class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mb-3 xl:pb-5 items-center transition-all duration-300 bg-white md:bg-transparent md:static absolute top-16 left-0 w-full md:w-auto px-6 md:px-0 py-4 md:py-0 shadow-lg md:shadow-none z-40 hidden md:flex">
+          <a href="#" class="text-gray-500 hover:text-gray-400 font-medium text-base transition">Home</a>
+          <a href="#" class="text-gray-500 hover:text-gray-400 font-medium text-base transition">Practice Areas</a>
+          <a href="#" class="text-gray-500 hover:text-gray-400 font-medium text-base transition">About Ross</a>
+          <a href="#" class="text-gray-500 hover:text-gray-400 font-medium text-base transition">Contact</a>
+          <button class="text-[#416287] hover:text-blue-900" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </button>
+        </nav>
+        <!-- bottom Logo -->
+        <button class="absolute -bottom-6 left-1/2 -translate-x-1/2 z-20">
+          <div class="bg-white  shadow-lg border-2 border-gray-200 rounded-full">
+            <img src="images/logo bottom.webp" alt="Law Office Logo" class="h-10 w-10 md:h-14 md:w-14 ">
+          </div>
+        </button>
       </div>
     </div>
-  </div>
-</section>
+    <script>
+      // Hamburger menu toggle
+      document.addEventListener('DOMContentLoaded', function () {
+        const toggle = document.getElementById('nav-toggle');
+        const links = document.getElementById('nav-links');
+        toggle && toggle.addEventListener('click', () => {
+          links.classList.toggle('hidden');
+        });
+      });
+    </script>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-30 md:pt-50 w-full relative overflow-hidden bg-black/50 min-h-screen">
+    <!-- BG Video -->
+    <div class="absolute inset-0 w-full h-full overflow-hidden z-0">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="images/People Staying Indoors.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 flex items-center justify-center min-h-[100vh] px-4 ">
+      <div class="text-center px-4 max-w-7xl mx-auto py-52">
+        <img src="images/hero image.webp" alt="Super Lawyers" class="mx-auto h-16 mt-20 md:h-40 w-auto mb-6">
+
+        <div class="flex flex-col md:flex-row items-center justify-center my-6">
+          <hr class="w-16 md:w-32 border-white hidden md:block">
+          <h1 class="text-2xl md:text-4xl font-semibold text-white mx-4 text-center drop-shadow-lg">
+            CLIENT-CENTRIC REPRESENTATION
+          </h1>
+          <hr class="w-16 md:w-32 border-white hidden md:block">
+        </div>
+
+        <p class="text-white/90 text-base md:text-lg lg:text-xl mb-8 leading-relaxed px-4 italic">
+          We offer a wide variety of planning and transactional services for your business and your personal life.
+          We believe in the value of preparedness, both in business and in life, and we help our clients plan and
+          prepare for the future so that they are well taken care of.
+        </p>
+
+        <button
+          class="bg-gray-500 hover:bg-gray-400 text-white px-8 py-3 rounded-full text-sm font-semibold shadow transition">
+          <a href="calender.html" target="_blank">Schedule an appointment</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Practice Areas -->
+  <section class="py-16 md:py-24 bg-white md:mx-56">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <div class="flex items-center justify-center mb-6">
+          <hr class="w-16 border-gray-900">
+          <h2 class="text-3xl md:text-4xl font-light text-gray-800 mx-4">Practice Areas</h2>
+          <hr class="w-16 border-gray-900">
+        </div>
+        <a href="#" class="text-blue-700 hover:text-blue-900 text-lg italic underline transition">Click here to learn
+          more</a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        <!-- Card 1 -->
+        <button class="p-6 text-center">
+          <img src="images/business icon.png" alt="Business Law" class="h-40 w-40 mx-auto mb-4 object-cover">
+          <h3 class="text-2xl md:text-3xl text-blue-500 underline mb-4 font-light">Business</h3>
+          <p class="text-gray-600 text-sm">
+            We work with businesses and business owners in every stage of the cycle, from formation,
+            to ongoing operation and growth of the company, preparation of contracts, protection of
+            intellectual property, and the sale or closing of a business.
+          </p>
+        </button>
+        <!-- Card 2 -->
+        <button class="p-6 text-center">
+          <img src="images/real estate icon.png" alt="Real Estate Law" class="h-40 w-40 mx-auto mb-4">
+          <h3 class="ttext-2xl md:text-3xl text-blue-500 underline mb-4 font-light">Real Estate</h3>
+          <p class="text-gray-600 text-sm">
+            We work with businesses and individuals on a wide variety of real estate matters,
+            including lease review and negotiation, preparation of deeds and purchase and sale
+            agreements, and boundary line and easement issues.
+          </p>
+        </button>
+        <!-- Card 3 -->
+        <button class="p-6 text-center">
+          <img src="images/estates icon.png" alt="Estate Planning" class="h-40 w-40 mx-auto mb-4">
+          <h3 class="text-2xl md:text-3xl text-blue-500 underline mb-4 font-light">Estates</h3>
+          <p class="text-gray-600 text-sm">
+            We help people to protect their assets and their families through comprehensive estate
+            planning services, including the preparation of Wills, Trusts, Power of Attorney, and
+            Healthcare Directives. We also help with the administration of estates through Probate.
+          </p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="py-12 md:py-20 bg-gray-50 w-full">
+    <div class="w-full px-4 max-w-7xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Client Feedback</h2>
+      <div class="relative">
+
+
+        <!-- Testimonials -->
+        <div class="relative min-h-[280px]">
+          <!-- Testimonial 1 -->
+          <div class="absolute inset-0 bg-[#416287]/90 text-white rounded-lg shadow p-8 flex flex-col items-center justify-center
+          transition-all duration-300 opacity-100 peer-checked/testimonial-0:opacity-100 peer-checked/testimonial-0:pointer-events-auto
+          peer-checked/testimonial-1:opacity-0 peer-checked/testimonial-1:pointer-events-none
+          peer-checked/testimonial-2:opacity-0 peer-checked/testimonial-2:pointer-events-none
+          peer-checked/testimonial-3:opacity-0 peer-checked/testimonial-3:pointer-events-none">
+            <p class="italic text-lg md:text-xl mb-6 text-center">"Ross was extremely professional and knowledgeable. He
+              took the time to explain everything in detail and made sure I understood all aspects of my estate
+              planning. Highly recommend!"</p>
+            <p class="font-medium text-center">- Sarah J., Estate Planning Client</p>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="absolute inset-0 bg-[#416287]/90 text-white rounded-lg shadow p-8 flex flex-col items-center justify-center
+          transition-all duration-300 opacity-0 pointer-events-none
+          peer-checked/testimonial-1:opacity-100 peer-checked/testimonial-1:pointer-events-auto">
+            <p class="italic text-lg md:text-xl mb-6 text-center">"As a small business owner, I needed help with
+              contracts and legal structure. Ross provided clear guidance and helped me set up my business properly from
+              the start."</p>
+            <p class="font-medium text-center">- Michael T., Business Client</p>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="absolute inset-0 bg-[#416287]/90 text-white rounded-lg shadow p-8 flex flex-col items-center justify-center
+          transition-all duration-300 opacity-0 pointer-events-none
+          peer-checked/testimonial-2:opacity-100 peer-checked/testimonial-2:pointer-events-auto">
+            <p class="italic text-lg md:text-xl mb-6 text-center">"The real estate transaction was smooth thanks to
+              Ross's attention to detail. He caught several potential issues in the contract that could have caused
+              problems down the road."</p>
+            <p class="font-medium text-center">- Emily R., Real Estate Client</p>
+          </div>
+          <!-- Testimonial 4 -->
+          <div class="absolute inset-0 bg-[#416287]/90 text-white rounded-lg shadow p-8 flex flex-col items-center justify-center
+          transition-all duration-300 opacity-0 pointer-events-none
+          peer-checked/testimonial-3:opacity-100 peer-checked/testimonial-3:pointer-events-auto">
+            <p class="italic text-lg md:text-xl mb-6 text-center">"I hired Ross recently and was impressed by his
+              attention to detail. I felt taken care of and although I only needed him for what may be considered a
+              pretty straight forward selling of my small business, I felt he went above and beyond to look out for me.
+              Thank you Ross."</p>
+            <p class="font-medium text-center">- Heidi H., Business Client</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
+  <!-- Contact Section -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col items-center mb-12">
+        <hr class="w-16 border-gray-300">
+        <h2 class="text-3xl md:text-4xl font-light text-gray-800 mx-4 my-4">Contact Us</h2>
+        <hr class="w-16 border-gray-300">
+        <a href="#" class="text-blue-700 hover:text-blue-900 text-lg italic underline mt-4">Or click here to schedule a
+          meeting</a>
+      </div>
+      <div class="text-center mb-12">
+        <h3 class="text-2xl font-bold text-gray-700">Edmonds Office</h3>
+      </div>
+      <div class="flex flex-col md:flex-row gap-8 md:gap-12 max-w-6xl mx-auto">
+        <!-- Contact Form -->
+        <div class="md:w-1/3">
+          <form class="space-y-4">
+            <input type="text" placeholder="Name" aria-label="Name"
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="email" placeholder="Email" aria-label="Email"
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="tel" placeholder="Phone" aria-label="Phone"
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <textarea placeholder="Message" aria-label="Message"
+              class="w-full p-3 border border-gray-300 rounded h-32 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            <button type="submit"
+              class="bg-gray-500 hover:bg-gray-400 text-white p-3 rounded-full">
+              Send Message
+            </button>
+          </form>
+        </div>
+        <!-- Map -->
+        <div class="md:w-1/3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.4362850905973!2d-122.38690002418375!3d47.81176227378839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901afead181f1d%3A0xa0e791678f1b874!2s144%20Railroad%20Ave%20UNIT%20308%2C%20Edmonds%2C%20WA%2098020%2C%20USA!5e0!3m2!1sen!2sgh!4v1750830189958!5m2!1sen!2sgh"
+            class="w-full h-60 md:h-full rounded shadow-md" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Contact Info -->
+        <div class="md:w-1/3 space-y-6 text-sm ">
+          <div>
+            <p class="text-gray-600 flex items-start">
+              <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-3"></i>
+              <span>144 Railroad Ave, Suite 308<br>Edmonds, WA 98020</span>
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-600 flex items-start">
+              <i class="far fa-clock text-blue-600 mt-1 mr-3"></i>
+              <span>By Appointment Only<br>Monday - Friday</span>
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-600 flex items-start">
+              <i class="fas fa-phone-alt text-blue-600 mt-1 mr-3"></i>
+              <span>(233) 484-4846</span>
+            </p>
+          </div>
+          <div>
+            <p class="text-gray-600 flex items-start">
+              <i class="far fa-envelope text-blue-600 mt-1 mr-3"></i>
+              <span>ross@rossgardnerlaw.com</span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-12 text-sm italic">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between max-w-6xl mx-auto gap-8 md:gap-0">
+        <!-- Links -->
+        <div>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-blue-700 transition">Disclaimer</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-blue-700 transition">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <!-- Addresses -->
+        <div class="">
+          <h4 class="font-bold text-gray-700 mb-3">Addresses</h4>
+          <div class="text-gray-600">
+            <p class="font-medium">Edmonds Office:</p>
+            <p>144 Railroad Ave, Suite 308<br>Edmonds, WA 98020</p>
+            <p class="font-medium mt-3">Mailing Address:</p>
+            <p>12918 Mukilteo Speedway<br>Suite C23, PMB #584<br>Lynnwood, WA 98087</p>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div>
+          <h4 class="font-bold text-gray-700 mb-3">Contact</h4>
+          <div class="text-gray-600">
+            <p><i class="fas fa-phone-alt mr-2"></i> (233) 484-4846</p>
+            <p class="mt-2"><i class="far fa-envelope mr-2"></i> ross@rossgardnerlaw.com</p>
+          </div>
+
+        </div>
+
+        <!-- Social Media -->
+        <div class="flex space-x-4 pt-4">
+          <a href="#" class="text-gray-600 hover:text-blue-700 transition"><i
+              class="fab fa-facebook-f text-2xl"></i></a>
+          <a href="#" class="text-gray-600 hover:text-blue-700 transition"><i
+              class="fab fa-linkedin-in text-2xl"></i></a>
+        </div>
+
+      </div>
 
 
+      <hr class="my-8 border-gray-300 max-w-6xl mx-auto">
+      <div class="text-center">
+        <p class="text-gray-500 text-sm italic">
+          © Ross D. Gardner, PLLC, 2024. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
